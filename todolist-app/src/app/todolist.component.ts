@@ -10,8 +10,7 @@ export class TodolistComponent {
   title = "Todolist";
   toDoList;
 
-  constructor() {
-    let service = new TodolistService();
+  constructor(service: TodolistService) {
     this.toDoList = service.getToDoList();
   }
 }
