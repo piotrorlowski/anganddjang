@@ -107,21 +107,21 @@ venv.bak/
 .idea/*
 
 # compiled output
-/dist
-/tmp
-/out-tsc
+.todolist-app/dist
+.todolist-app/tmp
+.todolist-app/out-tsc
 # Only exists if Bazel was run
-/bazel-out
+.todolist-app/bazel-out
 
 # dependencies
-/node_modules
+.todolist-app/node_modules/*
 
 # profiling files
 chrome-profiler-events.json
 speed-measure-plugin.json
 
 # IDEs and editors
-/.idea
+.idea
 .project
 .classpath
 .c9/
@@ -138,14 +138,14 @@ speed-measure-plugin.json
 .history/*
 
 # misc
-/.sass-cache
-/connect.lock
-/coverage
-/libpeerconnection.log
+.todolist-app/.sass-cache
+.todolist-app/connect.lock
+.todolist-app/coverage
+.todolist-app/libpeerconnection.log
 npm-debug.log
 yarn-error.log
 testem.log
-/typings
+.todolist-app/typings
 
 # System Files
 .DS_Store
