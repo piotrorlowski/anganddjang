@@ -114,7 +114,7 @@ venv.bak/
 .todolist-app/bazel-out
 
 # dependencies
-.todolist-app/node_modules/*
+.todolist-app/node_modules/
 
 # profiling files
 chrome-profiler-events.json
