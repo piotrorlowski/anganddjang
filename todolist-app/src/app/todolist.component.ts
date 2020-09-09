@@ -1,16 +1,16 @@
-import {TodolistService} from "./todolist.service";
-import {Component} from "@angular/core";
+import { TodoListService } from "./todolist.service";
+import { Component } from "@angular/core";
 
 @Component({
   selector: 'todolist',
-  template: '<h1 *ngFor="let list of toDoList">{{ list }}</h1>',
+  template: '<h2 *ngFor="let element of toDoList">{{ element }}</h2>',
 })
 
-export class TodolistComponent {
-  title = "Todolist";
-  toDoList;
+export class TodoListComponent {
+  title = "TodoList";
+  toDoList = [];
 
-  constructor(service: TodolistService) {
+  constructor(service: TodoListService) {
     this.toDoList = service.getToDoList();
   }
 }
