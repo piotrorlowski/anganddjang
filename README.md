@@ -1,2 +1,2 @@
 # anganddjang
-angular + django
+angular + django app for learning purposes
